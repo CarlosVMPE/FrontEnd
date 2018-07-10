@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Animated Typing with Typed.js</title>
+</head>
+<body>
+    
+    <span class="typed"></span><span class="typed-cursor typed-cursor--blink"></span>
+
+    
+
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed(".typed", {
+        strings: [
+            "Hello World",
+            "This is a test",
+            "from Type.js"
+        ],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true
+        });
+    </script>
+</body>
+</html>
