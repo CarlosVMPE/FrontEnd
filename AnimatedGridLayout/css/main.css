@@ -1,0 +1,30 @@
+a:hover{
+    text-decoration: none;
+}
+
+.navb{
+    width: 100%;
+    background: #000;
+}
+
+.navb figure{
+    text-align: center;
+}
+
+.navb figure img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.container-main{
+    position: relative;
+}
+
+.sidebar{
+    position: absolute;
+}
+
+.content__item {
+    padding: 60px 60px 150px 60px;
+}
